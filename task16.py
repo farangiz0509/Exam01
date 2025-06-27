@@ -1,5 +1,5 @@
 narx = 100.000
-yosh = int (input("yoshingizni kiriting"))
+yosh = int (input("yoshingizni kiriting:"))
 
 if yosh == 5:
     result = 100.000 * 50 /100

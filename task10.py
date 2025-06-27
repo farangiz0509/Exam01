@@ -1,3 +1,3 @@
-text = 2025
+text = '2025'
 a = text.isdigit()
 print(a)
