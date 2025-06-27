@@ -1,3 +1,3 @@
 text = 2025
-
-print(text)
+a = text.isdigit()
+print(a)

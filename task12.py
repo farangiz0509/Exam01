@@ -1,5 +1,4 @@
 a = "Men Python dasturlash tilini o‘rganaman"
 soz = "python"
-
-
-print(index)
+if soz in a:
+    print(True)
