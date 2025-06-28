@@ -1,7 +1,8 @@
 answer = "toshkent"
 savol = input("shaharni kiriting")
 
-while savol == answer:
-    print("ha " )
+while  answer not in savol:
+    print("notogri" )
     savol = input("shaharni kiriting")
-print("jaob notogri")
+    
+print("jaob togrik")
