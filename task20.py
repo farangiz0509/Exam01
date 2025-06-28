@@ -1,7 +1,7 @@
 answer = "toshkent"
 savol = input("shaharni kiriting")
 
-if savol == answer:
+while savol == answer:
     print("ha " )
-else:
-    print("jaob notogri")
+    savol = input("shaharni kiriting")
+print("jaob notogri")
