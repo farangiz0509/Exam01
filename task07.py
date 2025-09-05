@@ -1,4 +1,4 @@
-text = "programming"
-a = text[:4]
-print(a)
- 
+soz = "Programming"
+
+natija =  soz[:5]
+print(natija)

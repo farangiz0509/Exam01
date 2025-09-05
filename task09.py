@@ -1,5 +1,6 @@
-name = "ali"
+shablon =  "My name is {name} and I am {age} years old."
+
+name = 'Ali'
 age = 20
 
-text = f"my name is {name} and i am {age} year old"
-print(text)
+print(shablon.format(name=name , age=age))

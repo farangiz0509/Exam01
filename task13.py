@@ -1,5 +1,4 @@
-a = "   ali  valiyev" 
-toza = a.strip()
-b = a.title()
+ism = "   ali  valiyev"
 
-print(toza , b )
+natija = " ".join(ism.strip().split()).title()
+print(natija)

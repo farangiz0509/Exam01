@@ -1,3 +1,4 @@
 word = "ALO"
-a = word.istitle()
-print(a)
+
+natija = word.isupper()
+print(natija)

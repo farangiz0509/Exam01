@@ -1,6 +1,9 @@
-unli = ['a' , 'o' , "i", 'e', "u"]
-sana = 0
 letters = ["h", "e", "l", "l", "o", "w", "O", "r", "l", "d"]
-if letters in unli:
-        sana += 1
-        print(sana)
+unli_harf = 0
+unlilar = ["a", "e", "i", "o", "u"]
+
+for harf in letters:
+    if harf.lower() in unlilar:
+        unli_harf += 1
+
+print(unli_harf)

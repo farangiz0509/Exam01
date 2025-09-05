@@ -1,5 +1,5 @@
-yil = 1995
+t_yil = 1995
 hozir = 2025
-result = hozir - yil
 
-print(result)
+natija = hozir - t_yil
+print(natija)

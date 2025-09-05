@@ -1,4 +1,4 @@
-narx = 2000.0
-n = narx + (narx * 15/100)
+narx = 20000.0
 
-print(n)
+natija = narx * 1.15
+print(natija)

@@ -1,5 +1,5 @@
-a = 17
-b = 4
-result = a % b
+a = 17 
+b = 4 
 
-print(result)
+natija = a % b
+print(natija)

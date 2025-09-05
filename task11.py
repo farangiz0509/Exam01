@@ -1,4 +1,4 @@
-a = "file.txt.2025.report.doc"
-c = "."
-b = a.count(c)
-print (b)
+tekshir = "file.txt.2025.report.doc"
+
+natija = tekshir.count(".")
+print(natija)

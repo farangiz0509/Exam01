@@ -1,5 +1,7 @@
-a = 4
-b = 6
-c = 8
-result = (a + b + c)/3
-print(result)
+enter1 = float(input("a = "))
+enter2 = float(input("b = "))
+enter3 = float(input("c = "))
+
+result = (enter1 + enter2 + enter3) / 3
+
+print("Kiritgan sonlaringizni o'rtacha qiymati! ", result)

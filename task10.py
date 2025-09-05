@@ -1,3 +1,4 @@
-text = '2025'
-a = text.isdigit()
-print(a)
+son = '2025'
+
+natija = son.isdigit()
+print(natija)

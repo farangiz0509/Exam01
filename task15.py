@@ -1,8 +1,8 @@
-a = 30
+son = 30
 
-if a / 2:
-    print("2 ga bolinadi")
-elif a / 3:
-    print("3 ga bolinadi")
-elif a / 5:
-    print("5 ga bolinadi")
+if son % 2 == 0 :
+    print("30 soni 2 ga bo'linadi")
+if son % 3 == 0 :
+    print("30 soni 3 ga bo'linadi")
+if son % 5 == 0 :
+    print("30 soni 5 ga bo'linadi")

@@ -1,9 +1,10 @@
-a = "report.pdf"
-types = ".pdf", ".docx",  ".txt "
+text = "report.pdf"
 
-if a.endswith ("pdf"):
-    print("pdf")
-elif a.endswith ("docx"):
-    print("docx")
-elif a.endswith ("txt"):
-    print("txt")
+if text.endswith('.pdf'):
+    print("Fayl turi :  Pdf ")
+
+if text.endswith('.docx'):
+    print("Fayl turi : .docx ")
+
+if  text.endswith('.txt'):
+    print("Fayl turi : txt")

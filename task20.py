@@ -1,8 +1,5 @@
-answer = "toshkent"
-savol = input("shaharni kiriting")
-
-while  answer not in savol:
-    print("notogri" )
-    savol = input("shaharni kiriting")
-    
-print("jaob togrik")
+while True:
+    javob = input("O'zbekiston poytaxti qayer? ").lower()
+    if javob == "toshkent":
+        print("To'g'ri!")
+        break

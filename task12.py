@@ -1,4 +1,4 @@
-a = "Men Python dasturlash tilini o‘rganaman"
-soz = "python"
-if soz in a:
-    print(True)
+matn = "Men Python dasturlash tilini o'rganaman"
+
+natija = matn.index("Python")
+print(natija)

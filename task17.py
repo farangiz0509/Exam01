@@ -1,12 +1,20 @@
-score = int (input("enter the score:"))
+ball = int(input("Balingizni kiriting: "))
 
-if score >= 90:
-    print("A")
-elif score >= 80 or score <= 70:
-    print("B")
-elif score >= 60  or score <= 50:
-    print("C")
-elif score >= 50 or score <= 40:
-    print("D")
+if 90 <= ball <= 100:
+    print("A (A'lo)")  
+
+elif 80 <= ball < 90:
+    print("B (Yaxshi)")  
+
+elif 70 <= ball < 80:
+    print("C (Qoniqarli)")  
+
+elif 60 <= ball < 70:
+    print("D (Qoniqarsiz)")  
+
+elif 0 <= ball < 60:
+    print("F (yomon)")
+
 else:
-    print("KIRISH BALI 40 DAN YUQORI BOLISHI KERAK")
+    print("Ball 0-100 oralig'ida bo'lishi kerak!")
+
