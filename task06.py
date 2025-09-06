@@ -1,4 +1,5 @@
 narx = 20000.0
 
-natija = narx * 1.15
+natija = narx * 0.15
+total = narx + natija
 print(natija)
