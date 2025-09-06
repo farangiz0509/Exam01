@@ -1,6 +1,5 @@
-sonlar = [45, 12, 78, 34, 89, 23]
+n = int(input("n ni kiriting: "))
 
-katta = max(sonlar)
-kichik = min(sonlar)
+yigindi = sum(range(1, n + 1))
 
-print(f"Eng katta son: {katta}, Eng kichik son: {kichik}")
+print(f"1 dan {n} gacha bo'lgan sonlar yig'indisi: {yigindi}")

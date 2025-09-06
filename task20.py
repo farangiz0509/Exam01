@@ -1,5 +1,2 @@
-while True:
-    javob = input("O'zbekiston poytaxti qayer? ").lower()
-    if javob == "toshkent":
-        print("To'g'ri!")
-        break
+for i in range(1, 11):
+    print(f"{i} ning kvadrati: {i**2}")

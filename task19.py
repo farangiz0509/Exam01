@@ -1,9 +1,6 @@
-letters = ["h", "e", "l", "l", "o", "w", "O", "r", "l", "d"]
-unli_harf = 0
-unlilar = ["a", "e", "i", "o", "u"]
+matn = input("Matn kiriting: ")
+unlilar = "aeiou"
 
-for harf in letters:
-    if harf.lower() in unlilar:
-        unli_harf += 1
-
-print(unli_harf)
+for harf in matn:
+    if harf in unlilar:
+        print(harf)
